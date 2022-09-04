@@ -10,16 +10,7 @@ let matched = 0;
 let cardOne, cardTwo;
 let disableDeck = false;
 
-/*const items = [
-    { name: "cherry", image: "img-1.png" },
-    { name: "watermelon", image: "img-2.png" },
-    { name: "apple", image: "img-3.png" },
-    { name: "pear", image: "img-4.png" },
-    { name: "banana", image: "img-5.png" },
-    { name: "orange", image: "img-6.png" },
-    { name: "grape", image: "img-7.png" },
-    { name: "strawberry", image: "img-8.png" },
-];*/
+
 
 function flipCard({target: clickedCard}) {
     if(cardOne !== clickedCard && !disableDeck) {
