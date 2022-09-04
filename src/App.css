@@ -1,0 +1,22 @@
+
+.grid-container {
+    display: grid;
+    grid-template: 150px / auto auto auto;
+    width: 70%;
+    place-items: center;
+  }
+  
+  .cardComponent {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0 0 2rem;
+    text-align: center;
+  }
+  .cardComponent span {
+    margin-top: 1rem;
+  }
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
